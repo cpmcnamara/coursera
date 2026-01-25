@@ -47,7 +47,7 @@ class BookStructureTests(unittest.TestCase):
         
         for book_file in book_files:
             file_path = os.path.join(self.book_dir, book_file)
-            with open(file_path, 'r') as f:
+            with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
                 self.assertTrue(len(content) > 0,
                               f"{book_file} should not be empty")
