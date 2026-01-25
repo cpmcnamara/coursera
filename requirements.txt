@@ -1,0 +1,9 @@
+# Python dependencies for the Agentic BOM Engineering for MedTech book repository
+
+# Testing framework (using pytest instead of nose for Python 3.12+ compatibility)
+pytest==7.4.3
+
+# Documentation and Markdown processing
+markdown==3.4.4
+
+# Optional: Add any future dependencies here as needed
