@@ -28,4 +28,45 @@ Supporting diagrams and narrative sketches live in the `docs/` directory.
 - **Sell an Engineering-as-a-Service model**: Use chapters 06 and 07 to pitch a centralized, reusable capability for BOM automation to leadership and partner teams.
 - **Plan implementation**: Follow the roadmap, metrics, and validation chapters to create an actionable rollout plan aligned with regulatory needs.
 
-Contributions and adaptations for specific product lines or regulatory contexts are welcome.
+Contributions and adaptations for specific product lines or regulatory contexts are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Development
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Setup
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Or use make
+make install
+```
+
+### Running Tests
+```bash
+# Run tests with pytest
+pytest --verbose
+
+# Or use make
+make test
+```
+
+### Repository Structure
+```
+.
+├── book/              # Book chapters in Markdown format
+├── docs/              # Supporting documentation and diagrams
+├── tests/             # Python tests for repository validation
+├── requirements.txt   # Python dependencies
+├── setup.py          # Python package setup
+├── Makefile          # Common development tasks
+├── .travis.yml       # CI/CD configuration
+└── README.md         # This file
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
