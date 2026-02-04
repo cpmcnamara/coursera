@@ -2,6 +2,21 @@
 
 A pragmatic, engineering-first book on applying agentic automation to Bill of Materials (BOM) management and engineering change in medical technology organizations. The content targets R&D engineering managers, PLM/ERP architects, configuration management leads, and product engineers who need faster, safer, and more traceable BOM flows.
 
+## Python Package
+
+This repository also includes a Python package for working with Coursera's API. To install:
+
+```bash
+pip install -r requirements.txt
+python setup.py install
+```
+
+To run tests:
+
+```bash
+python -m unittest discover tests -v
+```
+
 ## How to Navigate
 
 The book lives in the `book/` directory as standalone Markdown chapters:
