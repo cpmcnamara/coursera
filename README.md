@@ -29,3 +29,16 @@ Supporting diagrams and narrative sketches live in the `docs/` directory.
 - **Plan implementation**: Follow the roadmap, metrics, and validation chapters to create an actionable rollout plan aligned with regulatory needs.
 
 Contributions and adaptations for specific product lines or regulatory contexts are welcome.
+
+## Website Recreation
+
+A standalone, portfolio-style recreation inspired by `onur.dev` is available in `recreated-onur/`.
+
+To preview locally:
+
+```bash
+cd recreated-onur
+python3 -m http.server 4173
+```
+
+Then open <http://localhost:4173>.
